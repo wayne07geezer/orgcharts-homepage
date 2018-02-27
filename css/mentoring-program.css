@@ -1,0 +1,175 @@
+@media (max-width:480px){
+    /**/
+    section{
+        padding: 60px 0;
+        display: block;
+        position: relative;
+    }
+    .section-header{
+        position: relative;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .section-header::before{
+        position: absolute;
+        content: " ";
+        background: url("../img/pattern-top01.png");
+        width: 200px;
+        top: -40px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-header::after{
+        position: absolute;
+        content: " ";
+        background: url("../img/pattern-top01.png");
+        width: 200px;
+        bottom: -40px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-header h2{
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 54px;
+        line-height: 45px;
+        text-align: center;
+        color: #000;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .section-header h2 span{
+        font-family: 'TheSans-6SemiBold';
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .section-header .mp-img{
+        width: 100%;
+    }
+
+    .mp-carousel{
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+    }
+    .mp-carousel .mp-carou-img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        border: 5px dotted #daac7b;
+        border-radius: 50%;
+        height: 100px;
+        display: flex;
+    }
+    .mp-carousel .mp-carou-img img{
+        display: block;
+        margin: 0 auto;
+        width: 60px;
+        padding-top: 8px;
+    }
+    .mp-carousel .carousel-control {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 47px;
+        top: 30px;
+        opacity: 1;
+    }
+    .mp-carousel .carousel-control.right {
+        right: 30px;
+    }
+    .mp-carousel .carousel-control.left {
+        left: 30px;
+    }
+    .mp-carousel .carousel-control img {
+        width: 100%;
+    }
+    .mp-carousel h5{
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #daac7b;
+        margin: 20px 0;
+        padding: 0 50px;
+    }
+    .mp-carousel p{
+        font-family: 'TheSans-6SemiBold';
+        font-size: 20px;
+        line-height: 26px;
+        text-align: left;
+        color: #120e0f;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+    .carousel-indicators {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+    .carousel-indicators li {
+        border: 1px solid #daac7b;
+    }
+    .mp-carousel .carousel-indicators .active {
+        background-color: #daac7b;
+    }
+
+    /*Wayne*/
+    .custom-list li {
+        font-family: 'TheSans-6SemiBold';
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        color: #120e0f;
+    }
+    .alpha-list02 {
+        padding-left: 10px;
+        position: relative;
+    }
+    .alpha-list02 li {
+        padding-left: 10px;
+        list-style-type: none;
+        display: flex;
+    }
+    .alpha-list02 li::before {
+        content: url(../img/check-list.png);
+        padding-right: 20px;
+        position: relative;
+        top: 4px;
+    }
+    .custom-text {
+        font-family: 'TheSans-8ExtraBold';
+    }
+    .image-four {
+        height: 76px;
+    }
+}
+
+@media (max-width:360px){
+    .section-header::before {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .section-header::after {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+}
